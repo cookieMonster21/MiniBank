@@ -1,5 +1,5 @@
 ﻿using System;
-namespace InterfacesTypes
+/*namespace InterfacesTypes
 {
     public interface IRepository
     {
@@ -12,4 +12,4 @@ namespace InterfacesTypes
         Update();
         Delete();
     }
-}
+}*/

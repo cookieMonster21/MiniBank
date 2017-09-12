@@ -4,7 +4,12 @@ using System.Text;
 
 namespace InterfacesTypes
 {
-    interface IBankAccount
+    public interface IBankAccount
     {
+        int AccountNumber { get; }
+        double Balance { get; }
+        double InterestRate { get; set; }  //Zinsen
+        IList<ITransaction> TransactionList { get; }
+        IList<ICustomer> CustomerList { get; }
     }
 }
