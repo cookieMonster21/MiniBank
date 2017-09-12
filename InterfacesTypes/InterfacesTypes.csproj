@@ -8,4 +8,7 @@
     <ProjectReference Include="..\BE\BE.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
 </Project>
